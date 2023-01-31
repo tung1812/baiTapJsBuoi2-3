@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>BaitapJSbuoi23</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1 class="text-center">Bai Tap JS buoi 2 va 3</h1>
+    <!-- Bai 1 -->
+    <section id="bai1" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Bai 1
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Pay Per Day</label>
+                                <input id="payPerDay" type="number" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Working Days</label>
+                                <input id="workingDays" type="number" class="form-control">
+                            </div>
+                            <button class="btn btn-success" onclick="salary()">Calculate</button>
+                        </div>
+                        <div id="salary" class="card-footer text-muted"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bai 2 -->
+    <section id="bai2" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Bai 2
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Number 1</label>
+                                <input id="realNumber1" type="number" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Number 2</label>
+                                <input id="realNumber2" type="number" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Number 3</label>
+                                <input id="realNumber3" type="number" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Number 4</label>
+                                <input id="realNumber4" type="number" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Number 5</label>
+                                <input id="realNumber5" type="number" class="form-control">
+                            </div>
+                            <button class="btn btn-success" onclick="average()">Calculate</button>
+                        </div>
+                        <div id="average" class="card-footer text-muted"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bai 3 -->
+    <section id="bai3" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Bai 3
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Amount of USD</label>
+                                <input id="usdAmount" type="number" class="form-control">
+                            </div>
+                            <button class="btn btn-success" onclick="exchange()">Calculate</button>
+                        </div>
+                        <div id="exchangeValue" class="card-footer text-muted"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bai 4 -->
+    <section id="bai4" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Bai 4
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Rectangle's length</label>
+                                <input id="recLength" type="number" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Rectangle's width</label>
+                                <input id="recWidth" type="number" class="form-control">
+                            </div>
+                            <button class="btn btn-success" onclick="rectangle()">Calculate</button>
+                        </div>
+                        <div id="result" class="card-footer text-muted"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bai 5 -->
+    <section id="bai5" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Bai 5
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="">Enter a number with 2 digit</label>
+                                <input id="twoDigitNumber" type="number" class="form-control">
+                            </div>
+                            <button class="btn btn-success" onclick="sumOfDigit()">Calculate</button>
+                        </div>
+                        <div id="sumOfDigit" class="card-footer text-muted"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="./bai1.js"></script>
+    <script src="./bai2.js"></script>
+    <script src="./bai3.js"></script>
+    <script src="./bai4.js"></script>
+    <script src="./bai5.js"></script>
+  </body>
+</html>
